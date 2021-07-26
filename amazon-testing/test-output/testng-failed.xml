@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="amazon.web.automation.testcases.TC_CAF_001_CreateAccountProvideAllFields">
+      <class name="amazon.web.automation.testcases.TC_001_CreateAccountFunctionality">
         <methods>
           <include name="startBrowser"/>
+          <include name="tc_CAF_005_Empty_Password_Non_Empty_Password_Again"/>
         </methods>
-      </class> <!-- amazon.web.automation.testcases.TC_CAF_001_CreateAccountProvideAllFields -->
+      </class> <!-- amazon.web.automation.testcases.TC_001_CreateAccountFunctionality -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

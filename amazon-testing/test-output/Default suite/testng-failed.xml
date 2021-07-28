@@ -5,8 +5,9 @@
     <classes>
       <class name="amazon.web.automation.testcases.TC_001_CreateAccountFunctionality">
         <methods>
+          <include name="tc_CAF_003_Provide_No_Name"/>
           <include name="startBrowser"/>
-          <include name="tc_CAF_005_Empty_Password_Non_Empty_Password_Again"/>
+          <include name="tc_CAF_002_Provide_No_Fields"/>
         </methods>
       </class> <!-- amazon.web.automation.testcases.TC_001_CreateAccountFunctionality -->
     </classes>

@@ -44,8 +44,6 @@ public class TC_001_CreateAccountFunctionality extends InstanciateDriver{
 	/*@Test
 	public void tc_CAF_004_Provide_No_Email() {
 		
-		Actions action = new Actions(driver);
-		
 		WebElement element = driver.findElement(By.xpath("//a[@id='nav-link-accountList']"));
 		action.moveToElement(element, 5, 5).perform();
 		driver.findElement(
